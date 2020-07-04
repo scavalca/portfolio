@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.container h1 {
+  color: white;
+  padding: 100px;
+}
+
+.contactText {
+  background-color: rgb(240, 228, 228);
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 8px;
+  color: rgb(39, 39, 114);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.containerLink {
+  width: 70px;
+  margin-top: 40px;
+}

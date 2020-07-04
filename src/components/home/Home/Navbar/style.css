@@ -1,0 +1,88 @@
+/* .container {
+  width: 100%;
+}
+
+.content {
+  width: 100%;
+  max-width: 1248px;
+  margin: 0 auto;
+  padding: 0 16px;
+} */
+
+.content h1 {
+  color: white;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 50px;
+  padding-bottom: 50px;
+}
+
+.content p {
+  color: white;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 8px;
+}
+
+.navbar {
+  height: 100px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-weight: bold;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.links {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbarLanguages {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 165px;
+}
+
+.navbarLanguages li {
+  height: 25px;
+}
+
+.navbarLanguages img {
+  width: 40px;
+  border-radius: 50px;
+}
+
+.navbar a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  color: black;
+}
