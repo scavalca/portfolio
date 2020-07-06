@@ -1,4 +1,4 @@
-import gameHome from "../assets/images/gameHome.png";
+import gameHome from "../assets/images/gamehome.png";
 import statuscar from "../assets/images/statuscar.png";
 
 export default [

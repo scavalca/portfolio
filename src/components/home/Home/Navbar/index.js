@@ -1,6 +1,7 @@
 import React from "react";
 import "../../../../styles.css";
 import "./style.css";
+import logo from "../../../../assets/images/logo.png";
 import brazilFlag from "../../../../assets/images/brazil.png";
 import franceFlag from "../../../../assets/images/france.png";
 import britishflag from "../../../../assets/images/england.png";
@@ -11,7 +12,9 @@ const Navbar = () => {
   return (
     <header className="container container--navbar">
       <div className="content navbar">
-        <div className="navbar__logo">&lt; SCG /&gt;</div>
+        <div className="navbar__logo">
+          <img src={logo} alt="logo" />
+        </div>
         <nav className="navbar__nav">
           <NavLink
             exact

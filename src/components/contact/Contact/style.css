@@ -5,21 +5,28 @@
   align-content: center;
 }
 
-.container h1 {
-  color: white;
-  /* padding: 100px; */
+.contact__title {
+  color: rgb(240, 236, 236);
+  margin-bottom: 80px;
 }
 
-.contactText {
+.contact__email {
   background-color: rgb(240, 228, 228);
   padding: 20px;
   font-size: 24px;
   border-radius: 8px;
+  margin-bottom: 80px;
   color: rgb(39, 39, 114);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.containerLink {
-  width: 70px;
+.contact__icon svg {
   margin-top: 40px;
+  margin: 0 16px;
+  transition: all 400ms ease-in-out;
+}
+
+.contact__icon svg:hover {
+  color: #ccc !important;
+  transition: all 200ms ease-in-out;
 }
