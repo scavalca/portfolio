@@ -10,7 +10,7 @@ import mongodbIcon from "./../../../assets/images/mongodbIcon.png";
 const About = () => {
   return (
     <div className="container">
-      <h1 className="text">Sou desenvolvedor Front End/Full Stack.</h1>
+      {/* <h1 className="text">Sou desenvolvedor Front End/Full Stack</h1> */}
       <div className="imagesIcons">
         <img className="imagesSize" src={htmlIcon} alt="" />
         <img className="imagesSize" src={cssIcon} alt="" />
@@ -20,20 +20,21 @@ const About = () => {
         <img className="imagesSize" src={mongodbIcon} alt="" />
       </div>
       <p className="text">
-        Formado em Administração de Empresas, com alguns anos de experiência no
-        ramo, decidi migrar para área de tecnologia, mais especificamente
-        programação web.
+        Com conhecimento e domínio das tecnologias HTML, CSS, React, JavaScript,
+        Node.js, MongoDb,Express.js, banco de dados NoSQ, Linguagem C, métodos
+        ágeis e controle de versionamento com Git e GitHub.
       </p>
-      <p className="text">
+      {/* <p className="text">
         Venho adquirindo conhecimento e domínio nas tecnologias citadas acima.
         <br />
         Esses conhecimentos vieram de muito estudo e prática no bootcamp da
         Ironhack, Impacta,Escola 42 de tecnologia e cursos livres.
-      </p>
+      </p> */}
       <p className="text">
-        Além de habilidades técnicas, possuo facilidade para trabalhar em
-        equipe, seja em pair programming ou com outros times internos, gosto de
-        colaborar e oferecer suporte e sou um bom ouvinte.
+        Além de habilidades técnicas, falo inglês e francês, possuo facilidade
+        de aprendizado, facilidade para trabalhar em equipe, seja em pair
+        programming ou com outros times internos, gosto de colaborar e oferecer
+        suporte e sou um bom ouvinte.
       </p>
     </div>
   );

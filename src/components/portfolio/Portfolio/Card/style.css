@@ -1,0 +1,75 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 300px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  transition: all 200ms ease-in-out;
+}
+
+.card:hover {
+  background-color: rgb(255, 255, 255);
+  transition: all 200ms ease-in-out;
+}
+
+.card__img {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.card__img img {
+  height: 100%;
+  width: auto;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+}
+
+.card__title {
+  margin-bottom: 4px;
+  color: #222222;
+}
+
+.card__sub-title {
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.card__text {
+  text-align: center;
+  margin-bottom: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #444;
+}
+
+.btn {
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+  width: 120px;
+  font-weight: bold;
+  transition: all 200ms ease-in-out;
+  justify-self: flex-end;
+  color: #222;
+}
+
+.btn:hover {
+  background-color: rgb(138, 138, 175);
+  color: white;
+  transition: all 200ms ease-in-out;
+}
