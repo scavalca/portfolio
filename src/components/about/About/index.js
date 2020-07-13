@@ -7,12 +7,14 @@ import jsIcon from "./../../../assets/images/jsIcon.png";
 import nodeIcon from "./../../../assets/images/nodeIcon.png";
 import mongodbIcon from "./../../../assets/images/mongodbIcon.png";
 
+import { useTranslation } from "react-i18next";
+
 const About = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="container">
-      <h1 className="about__title">
-        Transformo suas ideias em aplicações funcionais
-      </h1>
+      <h1 className="about__title">{t("aboutTitle")}</h1>
       <div className="about__icons">
         <img className="images__size" src={htmlIcon} alt="" />
         <img className="images__size" src={cssIcon} alt="" />
@@ -21,17 +23,8 @@ const About = () => {
         <img className="images__size" src={nodeIcon} alt="" />
         <img className="images__size" src={mongodbIcon} alt="" />
       </div>
-      <p className="about__text">
-        Com conhecimento e domínio das tecnologias HTML, CSS, React, JavaScript,
-        Node.js, MongoDb, Express.js, banco de dados NoSQ, Linguagem C, métodos
-        ágeis e controle de versionamento com Git e GitHub.
-      </p>
-      <p className="about__text">
-        Além de habilidades técnicas, falo inglês e francês, possuo facilidade
-        de aprendizado, facilidade para trabalhar em equipe, seja em pair
-        programming ou com outros times internos, gosto de colaborar e oferecer
-        suporte e sou um bom ouvinte.
-      </p>
+      <p className="about__text">{t("aboutTextOne")}</p>
+      <p className="about__text">{t("aboutTextTwo")}</p>
     </div>
   );
 };

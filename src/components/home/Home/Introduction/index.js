@@ -3,11 +3,15 @@ import "../../../../styles.css";
 import "./style.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
+import { useTranslation } from "react-i18next";
+
 const Introduction = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="introduction">
-      <h1 className="introduction__title">Desenvolvedor Front End</h1>
-      <p className="introduction__text">transformo sonhos em realidade</p>
+      <h1 className="introduction__title">{t("introductionTitle")}</h1>
+      <p className="introduction__text">{t("introductionText")}</p>
       <div className="introduction__icons">
         <a
           href="https://www.linkedin.com/in/sebastiaogalindo/"

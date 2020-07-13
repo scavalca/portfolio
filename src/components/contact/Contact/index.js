@@ -1,14 +1,15 @@
 import React from "react";
 import "./style.css";
-import linkedinIcon from "./../../../assets/images/linkedinIcon.png";
 import { FaLinkedin } from "react-icons/fa";
 
+import { useTranslation } from "react-i18next";
+
 const Contact = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="container">
-      <h1 className="contact__title">
-        Vamos bater um papo para me conhecer melhor
-      </h1>
+      <h1 className="contact__title">{t("contactTitle")}</h1>
       <p className="contact__email">Email: cmsgalindo@gmail.com</p>
       <div className="contact__icon">
         <a

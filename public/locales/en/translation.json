@@ -1,0 +1,17 @@
+{
+  "navbarHome": "Home",
+  "navbarAbout": "About",
+  "navbarPortfolio": "Portfolio",
+  "navbarContact": "Contact",
+  "introductionTitle": "Front End Developer",
+  "introductionText": "I turn dreams into reality",
+  "aboutTitle": "I turn your ideas into functional applications",
+  "aboutTextOne": "With knowledge and mastery of HTML, CSS, React, JavaScript, Node.js, MongoDb, Express.js, NoSQ database, C language, agile methods and versioning control with Git and GitHub.",
+  "aboutTextTwo": "In addition to technical skills, I speak English and French, I have ease of learning, ease to work as a team, whether in pair programming or with other internal teams, I like to collaborate and offer support and I am a good listener.",
+  "portfolioTitle": "Meet my main projects",
+  "portfolioSubtitleGameOne": "JAVASCRIPT GAME",
+  "portfolioSubtitleGameTwo": "CAR CONSULTATION WEBSITE",
+  "portfolioDescriptionOne": "Created using HTML | CSS | JavaScript",
+  "portfolioDescriptionTwo": "Created using JavaScript | Node.js | MongoDb | Nodemailer | Cloudinary | HTML | CSS",
+  "contactTitle": "Let's chat to get to know me better"
+}

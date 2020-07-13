@@ -8,7 +8,14 @@ import britishflag from "../../../../assets/images/england.png";
 
 import { NavLink } from "react-router-dom";
 
+import { useTranslation } from "react-i18next";
+
 const Navbar = () => {
+  const { t, i18n } = useTranslation();
+  function handleClick(lang) {
+    i18n.changeLanguage(lang);
+  }
+
   return (
     <header className="container container--navbar">
       <div className="content navbar">
@@ -22,7 +29,7 @@ const Navbar = () => {
             activeClassName="navbar__navlink--active"
             to="/"
           >
-            Início
+            {t("navbarHome")}
           </NavLink>
 
           <NavLink
@@ -31,7 +38,7 @@ const Navbar = () => {
             activeClassName="navbar__navlink--active"
             to="/about"
           >
-            Sobre
+            {t("navbarAbout")}
           </NavLink>
 
           <NavLink
@@ -40,7 +47,7 @@ const Navbar = () => {
             activeClassName="navbar__navlink--active"
             to="/portfolio"
           >
-            Portfólio
+            {t("navbarPortfolio")}
           </NavLink>
 
           <NavLink
@@ -49,19 +56,25 @@ const Navbar = () => {
             activeClassName="navbar__navlink--active"
             to="/contact"
           >
-            Contato
+            {t("navbarContact")}
           </NavLink>
         </nav>
 
         <ul className="navbar__languages">
           <li className="navbar__languages__flag">
-            <img src={brazilFlag} alt="" />
+            <a href="/#">
+              <img src={brazilFlag} alt="" onClick={() => handleClick("pt")} />
+            </a>
           </li>
           <li className="navbar__languages__flag">
-            <img src={franceFlag} alt="" />
+            <a href="/#">
+              <img src={franceFlag} alt="" onClick={() => handleClick("fr")} />
+            </a>
           </li>
           <li className="navbar__languages__flag">
-            <img src={britishflag} alt="" />
+            <a href="/#">
+              <img src={britishflag} alt="" onClick={() => handleClick("en")} />
+            </a>
           </li>
         </ul>
       </div>
