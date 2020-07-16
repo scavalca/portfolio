@@ -62,19 +62,13 @@ const Navbar = () => {
 
         <ul className="navbar__languages">
           <li className="navbar__languages__flag">
-            <a href="/#">
-              <img src={brazilFlag} alt="" onClick={() => handleClick("pt")} />
-            </a>
+            <img src={brazilFlag} alt="" onClick={() => handleClick("pt")} />
           </li>
           <li className="navbar__languages__flag">
-            <a href="/#">
-              <img src={franceFlag} alt="" onClick={() => handleClick("fr")} />
-            </a>
+            <img src={franceFlag} alt="" onClick={() => handleClick("fr")} />
           </li>
           <li className="navbar__languages__flag">
-            <a href="/#">
-              <img src={britishflag} alt="" onClick={() => handleClick("en")} />
-            </a>
+            <img src={britishflag} alt="" onClick={() => handleClick("en")} />
           </li>
         </ul>
       </div>

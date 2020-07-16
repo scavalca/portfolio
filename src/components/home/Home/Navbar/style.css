@@ -50,6 +50,7 @@
 
 .navbar__languages__flag {
   height: 25px;
+  cursor: pointer;
 }
 
 .navbar__languages__flag img {
