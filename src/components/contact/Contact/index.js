@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import { FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import { useTranslation } from "react-i18next";
 
@@ -17,7 +17,14 @@ const Contact = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaLinkedin size="56px" color="#FFFFFF" />
+          <FaLinkedin size="48px" color="#FFFFFF" />
+        </a>
+        <a
+          href="https://github.com/scavalca"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithub size="48px" color="#FFFFFF" />
         </a>
       </div>
     </div>
